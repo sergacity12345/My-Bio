@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fa/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="/index.css">
+    <title>About</title>
+</head>
+<body>
+    <header class="main-header">
+        <div>
+            <p class="main-header__brand">Whalze</p>
+        </div>
+
+        <nav class="main-nav">
+            <ul class="main-nav__items">
+                <li class="main-nav__item">
+                    <a href="index.html">Home</a>
+                </li>
+                <!-- <li class="main-nav__item main-nav__item--cta">
+                    <a href="start-hosting/index.html">Contact</a>
+                </li> -->
+            </ul>
+        </nav>
+    </header>
+    <main class="about-main">
+        <br>
+        <br>
+        <br>
+        <div class="backdrop"></div>
+            <div class="modal">
+                <h1 class="modal__title">Thanks for the comment</h1>
+                <div class="modal__actions">
+                    <a href="index.html" class="modal__action">Okay</a>
+                    <!-- <button class="modal__action modal__action--negative" type="button">No</button> -->
+                </div>
+            </div>
+        <h2>I am back-end software developer and 400 level student at presigious University of Nigeria Nsukka Enugu campus studying a 5 years course ,Medical Radiography.</h2>
+        <h2>I was also a Honorable member of University of Nigeria Radiography Student Association (UNRADSA) Enugu Campus , i held two position where one was Chief Clerk and the second Position was Chief Whip.</h2>
+        <h2>From the position i held, i was able to to work with teams and understand how leadership works. </h2>
+        <h2>I work with <strong>JavaScript,Node Js </strong> and i am learning other tools that will increase my knowledge of how Technology works.</h2>
+        <h2></h2>
+        <div class="form-control">
+            <h4  class="comment-form">Leave a comment below. Thanks!</h4>
+            <form class="comment-form" action="/index.html"  method="POST" >
+                <div class="form-control">
+                    <label for="title">Email</label>
+                    <input 
+                        class="email"
+                        type="email" 
+                        name="email" 
+                        id="email">
+                </div>
+                <div class="form-control">
+                    <label for="description">Description</label>
+                    <textarea 
+                        class="textarea"
+                        name="description" 
+                        id="description" 
+                        rows="5"></textarea>
+                </div>
+                <button class="btn" >Submit</button>
+            </form>
+        </div>
+    </main>
+    <div class="footer-mini">
+        <section id="key-features">
+            <ul class="key-feature__list">
+                <li class="key-feature">
+                    <p class="key-feature__description">Enugu ,Enugu State Nigeria</p>
+                    <i class="fa fa-home"></i>
+                </li>
+                <li  class="key-feature">
+                    <p class="key-feature__description">(+234)9050318254</p>
+                    <i class="fa fa-mobile"></i>
+                </li>
+                <li  class="key-feature">
+                    <p class="key-feature__description">Social Media</p>
+                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                    <i class="fa fa-github-square" aria-hidden="true"></i>
+                    <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                </li>
+            </ul>
+        </section>
+    </div>
+    <footer class="main-footer">
+        <nav>
+            <ul class="main-footer__links">
+                <li class="main-footer__link">
+                    <p>&copy; 2021- <span class="current-year"></span> All Right Reserved</p>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
