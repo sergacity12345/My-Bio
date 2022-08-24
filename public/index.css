@@ -193,6 +193,9 @@ body{
     text-align: center;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
+.project-info > h4{
+    font-size: small;
+}
 
 img{
     width: 100%;
@@ -412,6 +415,26 @@ footer > .project-item{
   }
   
 
+  @media (min-width: 40rem) {
+      .main-footer__link {
+          margin: 0 1rem;
+        }
+        .main-footer__links {
+            flex-direction: row;
+            justify-content: center;
+        }
+
+    .details{
+        background-color: white;
+        width: 50%;
+        position: relative;
+        left: 150px;
+        height: 10rem;
+    }
+    
+}
+
+
 @media (min-width: 50rem) {
    
 
@@ -419,27 +442,8 @@ footer > .project-item{
         background-color: white;
         width: 50%;
         position: relative;
-        left: 190px;
+        left: 250px;
         height: 10rem;
     }
     
 }
-@media (min-width: 40rem) {
-    .main-footer__link {
-        margin: 0 1rem;
-    }
-    .main-footer__links {
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    .details{
-        background-color: white;
-        width: 50%;
-        position: relative;
-        left: 330px;
-        height: 10rem;
-    }
-    
-}
-
