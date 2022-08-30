@@ -20,6 +20,10 @@ exports.postComment = (req,res,next)=>{
     const email = req.body.email;
     const description = req.body.description
     const comment = new Comment(email,description)
-    comment.save()
-    // res.redirect("/")
+    if(email.length > 5 && description.length > 5){
+        comment.save()
+        res.redirect("/")
+    }else{
+        return res.redirect("/about.html")
+    }
 }

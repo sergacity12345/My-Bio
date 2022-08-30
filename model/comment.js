@@ -17,6 +17,18 @@ module.exports = class Comment {
             if(!err){
                 feedBack = JSON.parse(fileContent)
             }
+            feedBack.push(this)
+            fs.writeFile(p,JSON.stringify(feedBack),(err)=>{
+                // console.log(err)
+                console.log(p)
+            })
+            // }
+            
+            
+        })
+    }
+}
+
             // if(this.email){
             //     const existingEmailIndex = feedBack.findIndex(curr=> curr.email === this.email);
             //     const updatedEmail = [...feedBack]
@@ -26,14 +38,3 @@ module.exports = class Comment {
             //         console.log("UPDATED",updatedEmail)
             //     })
             // }else{
-                feedBack.push(this)
-                fs.writeFile(p,JSON.stringify(feedBack),(err)=>{
-                    // console.log(err)
-                    console.log(p)
-                })
-            // }
-            
-            
-        })
-    }
-}

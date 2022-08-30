@@ -237,7 +237,7 @@ img{
 .footer-project{
     color: white;
     font-size: large;
-    background-color: rgb(21, 34, 204);
+    background-color: rgb(12, 14, 41);
 }
 
 footer > .project-item{
@@ -386,12 +386,13 @@ footer > .project-item{
 }
   
 .footer-mini{
-    background-color: blue;
+    background-color: rgb(6, 6, 39);
+    color: white;
     height: 100px;
     margin: 0 5px;
 } 
  .main-footer {
-    background: black;
+    background: rgb(2, 2, 58);
     margin: 0 5px;
   }
   

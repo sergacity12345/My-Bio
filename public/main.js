@@ -2,21 +2,20 @@ const date = new Date();
 const year = date.getFullYear()
 document.querySelector(".current-year").innerHTML = year;
 
-const backDrop = document.querySelector(".backdrop");
-const modal = document.querySelector(".modal");
-const btn = document.querySelector(".btn");
-const modalAction = document.querySelector(".modal__action")
+// const backDrop = document.querySelector(".backdrop");
+// const modal = document.querySelector(".modal");
+// const btn = document.querySelector(".btn");
+// const modalAction = document.querySelector(".modal__action")
+
+// btn.addEventListener("click", function(e){
+//    backDrop.style.display = "block";
+
+//    modal.style.display = "block";
 
 
-btn.addEventListener("click", function(e){
-   backDrop.style.display = "block";
 
-   modal.style.display = "block";
-
-
-
-   e.preventDefault()
-})
+//    e.preventDefault()
+// })
 
 
 
